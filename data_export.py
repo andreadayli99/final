@@ -13,4 +13,4 @@ try:
     
     print(f"Datos exportados exitosamente a {archivo_excel}")
 except Exception as e:
-    print(f"Error al exportar los datos: {e}")
+    print(f"Error")
