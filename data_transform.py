@@ -9,7 +9,8 @@ try:
     
     # Ordenar los datos por nombre
     data_ordenada = data.sort_values(by='Nombre1')
-    
+    # Regla 2: Normalizar los nombres (conmayúsculas y sin caracteres especiales)
+ # Regla 3: Corregir fechas inválidas de nacimiento.    
     # Exportar a Excel
     archivo_excel = 'clientes_ordenados.xlsx'
     data_ordenada.to_excel(archivo_excel, index=False)
